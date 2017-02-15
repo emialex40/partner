@@ -15,6 +15,67 @@ tfoot, th, thead, time, tr, ul, var, video
 $siteColr: #24136f
 $whiteColr: #ffffff
 
+.menu
+	background: #000
+	left: -320px
+	height: 100%
+	position: fixed
+	width: 320px
+	z-index: 2000
+	opacity: .8
+	ul
+		border-top: 1px solid #555
+		list-style: none
+		margin: 0
+		padding: 0
+	li
+		border-bottom: 1px solid #555
+		font-family: "Open Sans", sans-serif
+		line-height: 45px
+		padding-bottom: 3px
+		padding-left: 20px
+		padding-top: 3px
+		transition: 3s
+		&:hover
+			cursor: pointer
+			background-color: #555
+		a
+			color: #fff
+			font-size: 15px
+			text-decoration: none
+			text-transform: uppercase
+	.icon-close
+		padding-left: 285px
+		padding-top: 70px
+		padding-bottom: 6px
+		i
+			font-size: 26px
+			color: #fff
+			cursor: pointer
+.loader
+  background: none repeat scroll 0 0 #ffffff
+  bottom: 0
+  height: 100%
+  left: 0
+  position: fixed
+  right: 0
+  top: 0
+  width: 100%
+  z-index: 9000
+.loader_inner 
+	background-image: url("../img/loader.gif")
+	background-size: cover
+	background-repeat: no-repeat
+	background-position: center center
+	background-color: #fff
+	height: 60px
+	width: 60px
+	margin-top: -30px
+	margin-left: -30px
+	left: 50%
+	top: 50%
+	position: absolute
+
 .top_menu
 	background: $siteColr
 	height: 100px
@@ -22,6 +83,14 @@ $whiteColr: #ffffff
 	z-index: 1000
 	box-shadow: 0 5px 7px rgba(0, 0, 0, 0.7)
 	width: 100%
+	.menu-btn
+		display: none
+		color: #ffffff
+		font-size: 20px
+		float: right
+		padding-top: 30px
+		cursor: pointer
+		top: 0
 
 .logo
 	display: inline-block
@@ -40,7 +109,7 @@ $whiteColr: #ffffff
 		font-size: 22px
 		color: $whiteColr
 		letter-spacing: 2px
-		display: block
+		display: inline-block
 		&:last-child
 			padding-left: 57px
 			margin-top: -7px
@@ -60,24 +129,39 @@ $whiteColr: #ffffff
 			color: $whiteColr
 			&:hover
 			 color: #9999ff
+			 text-decoration: none
+			 
 .bg_img
 	background: url(../img/645-front-street-1701-006_highres.jpg) 50% 100% no-repeat
 	background-size: cover
 	width: 100%
 	height: 395px
-
+	h1
+	 font-family: 'Open Sans', regular
+	 font-size: 42px
+	 color: $whiteColr
+	 display: none
+	 top: 200px
+	 left: 42%
+	 position: absolute
+	 text-shadow: 0 5px 3px rgba(0, 0, 0, 0.7)
 .section
 	width: 100%
 	h2
 		text-align: center
 		display: block
 		margin-top: 80px
-		margin-bottom: 60px
+		margin-bottom: 80px
 		font-family: 'Open Sans', Semibold
 		font-size: 36px
+		text-transform: uppercase
+		letter-spacing: 2px
+.why
+	margin-bottom: 80px
 .why
  	h2
- 		color: $siteColr
+		color: $siteColr
+
 .icon-box
 	display: block
 
@@ -119,6 +203,20 @@ $whiteColr: #ffffff
 	margin-right: 20px !important
 .perf
 	margin-right: 33px !important
+
+.blue
+	background: $siteColr
+	color: $whiteColr
+	margin-bottom: 2px
+
+.crl_block
+	img
+		width: 375px
+		height: 276px
+
+.r_estate
+ margin-bottom: 80px
+
 
 .footer
 	width: 100%

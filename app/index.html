@@ -3,25 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PARTNER</title>
-    <link rel="stylesheet" href="css/main.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ПАРТНЕР</title>
     <link rel="stylesheet" href="libs/bootsrap/bootstrap-grid.min.css">
     <link rel="stylesheet" href="libs/bootsrap/bootstrap.min.css">
     <link rel="stylesheet" href="libs/bootsrap/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/media.css">
-    <link rel="stylesheet" href="css/libs.min.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
     <link rel="stylesheet" href="libs/animate/animate.min.css">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
 </head>
 
 <body>
+<!-- loader -->
+<div class="loader">
+	<div class="loader_inner"></div>
+</div>
+<!-- loader end -->
+
+<!-- mobile menu -->
+<div class="menu">
+        <!-- icon menu -->
+        <div class="icon-close">
+            <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <!-- menu -->
+        <ul>
+            <li><a href="html/action.html">Чому ми</a></li>
+            <li><a href="html/rods.html">Нерухомість</a></li>
+            <li><a href="html/coil.htm">Відгуки</a></li>
+            <li><a href="#">Контакти</a></li>
+        </ul>
+    </div>
+<!-- mobile menu end -->
+
 <!-- header -->
     <header>
 		<div class="top_menu">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-5">
+					<div class="col-md-5 col-xs-5">
 						<div class="logo">
 							<a href="index.html"><img src="img/logo.png" alt="logo"></a>
 						</div>
@@ -30,18 +52,20 @@
 							<span>(095) 213 69 55</span>
 						</div>
 					</div>
-					<div class="col-md-7">
+					<div class="col-md-7 col-xs-7">
 						<ul class="navbar">
 							<li><a href="#">Чому ми</a></li>
 							<li><a href="#">Нерухомість</a></li>
 							<li><a href="#">Відгуки</a></li>
 							<li><a href="#">Контакти</a></li>
 						</ul>
+						<div class="menu-btn"><i class="fa fa-bars" aria-hidden="true"></i> Menu</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	<div class="bg_img">
+			<h1>ПАРТНЕР</h1>
 	</div>
     </header>
 <!-- end header -->
@@ -51,7 +75,7 @@
 		<div class="container">
 			<div class="row">
 				<h2>6 причин працювати з нами</h2>
-				<div class="col-md-4">
+				<div class="col-md-4 col-xs-12">
 					<div class="icon-box">
 						<img class="icon" src="img/icons/exclusive.png" alt="exclusive">
 						<p>Ексклюзив</p>
@@ -61,7 +85,7 @@
 						<p>Іноваційні<br>технології</p>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4 col-xs-12">
 					<div class="icon-box">
 						<img class="icon" src="img/icons/Prize-100.png" alt="exclusive">
 						<p class="expce">Досвід</p>
@@ -71,7 +95,7 @@
 						<p class="marng">Індивідуальний<br>маркетинг</p>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4 col-xs-12">
 					<div class="icon-box">
 						<img class="icon" src="img/icons/Commercial-Development-Management-100.png" alt="exclusive">
 						<p class="prtnr">Мережа партнерів</p>
@@ -85,43 +109,222 @@
 		</div>
 	</div>
 
-	<div class="section">
+	<div class="section blue">
 		<div class="container">
 			<div class="row">
-				<h2>6 причин працювати з нами</h2>
-				<div class="col-md-4">
+				<h2>Житлова</h2>
+				<div class="col-md-12">
+					<div class="r_estate">
+						<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      	<div class="crl_block">
+      		<img src="img/photo/photo_24751_18155.jpg" alt="photo_24751_18155">
+      		<img src="img/photo/photo_401268_129720.jpg" alt="photo_401268_129720">
+      		<img src="img/photo/photo_482844_46368.JPG" alt="photo_482844_46368">
+      	</div>
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+
+    <div class="item">
+      <div class="crl_block">
+      		<img src="img/photo/photo_24751_18155.jpg" alt="photo_24751_18155">
+      		<img src="img/photo/photo_401268_129720.jpg" alt="photo_401268_129720">
+      		<img src="img/photo/photo_482844_46368.JPG" alt="photo_482844_46368">
+      	</div>
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+    ...
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+</div>
+					</div>
 				</div>
-				<div class="col-md-4"></div>
-				<div class="col-md-4"></div>
 			</div>
 		</div>
 	</div>
 
-	<div class="section">
+	<div class="section blue">
 		<div class="container">
 			<div class="row">
-				<h2>6 причин працювати з нами</h2>
+				<h2>Комерційна</h2>
+				<div class="col-md-12">
+					<div class="r_estate">
+						<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      	<div class="crl_block">
+      		<img src="img/photo/photo_24751_18155.jpg" alt="photo_24751_18155">
+      		<img src="img/photo/photo_401268_129720.jpg" alt="photo_401268_129720">
+      		<img src="img/photo/photo_482844_46368.JPG" alt="photo_482844_46368">
+      	</div>
+      <!-- <div class="carousel-caption">
+        ...
+      </div> -->
+    </div>
+
+    <div class="item">
+      <div class="crl_block">
+      		<img src="img/photo/photo_24751_18155.jpg" alt="photo_24751_18155">
+      		<img src="img/photo/photo_401268_129720.jpg" alt="photo_401268_129720">
+      		<img src="img/photo/photo_482844_46368.JPG" alt="photo_482844_46368">
+      	</div>
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+    ...
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
 
-	<div class="section">
+	<div class="section blue">
 		<div class="container">
 			<div class="row">
-				<h2>6 причин працювати з нами</h2>
-			</div>
-		</div>
-	</div>
+				<h2>Зарубіжна</h2>
+				<div class="col-md-12">
+					<div class="r_estate">
+						<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
 
-	<div class="section">
-		<div class="container">
-			<div class="row">
-				<h2>6 причин працювати з нами</h2>
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      	<div class="crl_block">
+      		<img src="img/photo/photo_24751_18155.jpg" alt="photo_24751_18155">
+      		<img src="img/photo/photo_401268_129720.jpg" alt="photo_401268_129720">
+      		<img src="img/photo/photo_482844_46368.JPG" alt="photo_482844_46368">
+      	</div>
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+
+    <div class="item">
+      <div class="crl_block">
+      		<img src="img/photo/photo_24751_18155.jpg" alt="photo_24751_18155">
+      		<img src="img/photo/photo_401268_129720.jpg" alt="photo_401268_129720">
+      		<img src="img/photo/photo_482844_46368.JPG" alt="photo_482844_46368">
+      	</div>
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+    ...
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
 </div>
 
+<div class="section why">
+		<div class="container">
+			<div class="row">
+				<h2>Відгуки</h2>
+				<div class="col-md-12">
+					<div class="r_estate">
+						<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      	<div class="crl_block">
+      		<img src="img/photo/photo_24751_18155.jpg" alt="photo_24751_18155">
+      		<img src="img/photo/photo_401268_129720.jpg" alt="photo_401268_129720">
+      		<img src="img/photo/photo_482844_46368.JPG" alt="photo_482844_46368">
+      	</div>
+      <!-- <div class="carousel-caption">
+        ...
+      </div> -->
+    </div>
+
+    <div class="item">
+      <div class="crl_block">
+      		<img src="img/photo/photo_24751_18155.jpg" alt="photo_24751_18155">
+      		<img src="img/photo/photo_401268_129720.jpg" alt="photo_401268_129720">
+      		<img src="img/photo/photo_482844_46368.JPG" alt="photo_482844_46368">
+      	</div>
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+    ...
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 <!-- footer -->
 <footer>
 	<div class="footer">
