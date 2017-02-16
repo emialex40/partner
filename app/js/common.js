@@ -1,5 +1,10 @@
 $(document).ready(function() {
-$('.carousel').carousel()
+
+$('.sl').slick();
+
+
+
+$('.carousel').carousel({ interval: false });
 
 function main() {
 		$('.menu-btn').click(function() {
