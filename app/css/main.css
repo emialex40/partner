@@ -121,7 +121,7 @@ tfoot, th, thead, time, tr, ul, var, video {
   margin-top: 45px; }
   .navbar li {
     display: inline-block;
-    font-family: 'Open Sans', regular;
+    font-family: 'Open Sans';
     font-size: 18px;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -225,41 +225,78 @@ tfoot, th, thead, time, tr, ul, var, video {
 .img_block {
   display: inline-block;
   width: 377px;
-  height: 279px; }
+  height: 279px;
+  position: relative; }
   .img_block img {
     display: block;
     width: 376px;
     height: 261px;
     margin: 0 auto; }
+  .img_block a {
+    text-decoration: none; }
+  .img_block .img_hover {
+    display: none;
+    text-align: center;
+    z-index: 100;
+    margin-top: -261px;
+    margin-left: 2px;
+    font-family: 'Open Sans', regular;
+    color: #ffffff;
+    letter-spacing: 2px;
+    text-shadow: 0 3px 5px rgba(0, 0, 0, 0.9);
+    width: 376px;
+    height: 261px;
+    background: #000;
+    opacity: .6;
+    padding-top: 164px;
+    -webkit-transition: 3s;
+    transition: 3s; }
+    .img_block .img_hover p {
+      font-size: 14px;
+      text-transform: uppercase;
+      display: inline-block;
+      width: 281px;
+      position: absolute;
+      margin-top: -135px;
+      margin-left: -142px; }
+    .img_block .img_hover span {
+      font-size: 24px;
+      text-transform: uppercase;
+      display: inline-block;
+      margin-top: 10px; }
+    .img_block .img_hover .price {
+      font-size: 28px;
+      color: #E5320D;
+      display: block;
+      margin-top: -12px; }
 
-.carousel-indicators {
-  bottom: 0; }
+.sl .prev {
+  display: inline-block;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  background: url(../img/icons/arrow_left.png) #24136f no-repeat 11px 8px;
+  left: 30px;
+  top: 47%;
+  opacity: .5;
+  z-index: 100;
+  cursor: pointer; }
 
-.carousel-control {
-  top: 20px;
-  bottom: 23px; }
-  .carousel-control .img-left {
-    display: inline-block;
-    background: url(../img/icons/arrow_left.png) #24136f no-repeat 11px 8px;
-    width: 40px;
-    height: 40px;
-    -webkit-border-radius: 50%;
-            border-radius: 50%;
-    opacity: .7;
-    position: absolute;
-    margin-top: 125px;
-    margin-left: -64px; }
-  .carousel-control .img-right {
-    display: inline-block;
-    background: url(../img/icons/arrow_right.png) #24136f no-repeat 15px 7px;
-    width: 40px;
-    height: 40px;
-    -webkit-border-radius: 50%;
-            border-radius: 50%;
-    opacity: .7;
-    position: absolute;
-    margin-top: 125px;
-    margin-left: 21px; }
+.sl .next {
+  display: inline-block;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  background: url(../img/icons/arrow_right.png) #24136f no-repeat 15px 8px;
+  right: 30px;
+  top: 46%;
+  opacity: .5;
+  z-index: 100;
+  cursor: pointer; }
 
 .footer {
   width: 100%;
