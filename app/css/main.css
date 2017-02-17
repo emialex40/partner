@@ -226,14 +226,13 @@ tfoot, th, thead, time, tr, ul, var, video {
   display: inline-block;
   width: 377px;
   height: 279px;
-  position: relative; }
+  position: relative;
+  border: 1px solid black; }
   .img_block img {
     display: block;
     width: 376px;
     height: 261px;
     margin: 0 auto; }
-  .img_block a {
-    text-decoration: none; }
   .img_block .img_hover {
     display: none;
     text-align: center;
@@ -269,6 +268,9 @@ tfoot, th, thead, time, tr, ul, var, video {
       color: #E5320D;
       display: block;
       margin-top: -12px; }
+    .img_block .img_hover a {
+      text-decoration: none;
+      color: #ffffff; }
 
 .sl .prev {
   display: inline-block;
@@ -297,6 +299,18 @@ tfoot, th, thead, time, tr, ul, var, video {
   opacity: .5;
   z-index: 100;
   cursor: pointer; }
+
+.ava {
+  width: 279px;
+  height: 100px; }
+  .ava img {
+    width: 75px;
+    height: 75px;
+    margin-left: 20px; }
+  .ava h3 {
+    display: block;
+    margin: 0 auto;
+    text-align: center; }
 
 .footer {
   width: 100%;
