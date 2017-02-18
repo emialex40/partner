@@ -1,15 +1,54 @@
 $(document).ready(function() {
 
 
+	      // anchor code
+var $page = $('html, body');
+  $('a[href*="#"]').click(function() {
+    event.preventDefault();
+      $page.animate({
+          scrollTop: $($.attr(this, 'href')).offset().top
+      }, 1000);
+    return false;
+});
+
+$(".navbar").changeActiveNav();
+
+$(function(){
+$('.call img').jrumble();
+$('.call img').trigger('startRumble');
+ 
+});
+
+	$('#popup i, #parent_popup').on('click', function() {
+	$('#parent_popup, #popup').css('display', 'none');
+});
+
+	$('.call').on('click', function() {
+	$('#parent_popup, #popup').css('display', 'block');
+});
+
+	var top_show = 290;//при каком положении кнопка появляется
+  var delay = 800; // Задержка прокрутки
+
+    $(window).scroll(function () {
+      if ($(this).scrollTop() > top_show) $('#top').fadeIn();
+      else $('#top').fadeOut();
+    });
+    $('#top').click(function () {
+      $('body, html').animate({
+        scrollTop: 0
+      }, delay);
+    });
 
 
-	// $('.img_block').hover(
-	// 	function() {
-	//  	$('.img_hover').css("display", "block");
-	//  },
-	// 	function() {
-	//  	$('.img_hover').css("display", "none");
-	// });
+	$('.img_block').hover(
+		function() {
+	 	$('.img_hover').css('display', 'none');
+	 	$(this).children('.img_hover').css('display', 'block');
+	 },
+		function() {
+	 	$('.img_hover').css("display", "none");
+	});
 
 
 // slider slick
@@ -55,11 +94,11 @@ $(document).ready(function() {
 $('.reviews').slick({
   slidesToShow: 3,
   slidesToScroll: 1,
-  autoplay: false,
+  autoplay: true,
   autoplaySpeed: 2000,
   arrows: true,
-  nextArrow: '<span class="prev"></span>',
-  prevArrow: '<span class="next"></span>',
+  nextArrow: '<span class="rev-prev"></span>',
+  prevArrow: '<span class="rev-next"></span>',
   responsive: [
     {
       breakpoint: 1024,
