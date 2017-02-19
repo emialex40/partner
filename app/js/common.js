@@ -1,5 +1,11 @@
 $(document).ready(function() {
 
+$('#thumbs').delegate('img','click', function(){
+    $('#largeImage').attr('src',$(this).attr('src').replace('thumb','large'));
+    $('#description').html($(this).attr('alt'));
+});
+
+
 
 	      // anchor code
 var $page = $('html, body');
@@ -23,7 +29,7 @@ $('.call img').trigger('startRumble');
 	$('#parent_popup, #popup').css('display', 'none');
 });
 
-	$('.call').on('click', function() {
+	$('.call, .callbeck').on('click', function() {
 	$('#parent_popup, #popup').css('display', 'block');
 });
 
@@ -55,7 +61,7 @@ $('.call img').trigger('startRumble');
 
   $('.sl').slick({
   slidesToShow: 3,
-  slidesToScroll: 1,
+  slidesToScroll: 3,
   autoplay: false,
   autoplaySpeed: 2000,
   arrows: true,

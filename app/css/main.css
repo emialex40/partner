@@ -269,7 +269,8 @@ tfoot, th, thead, time, tr, ul, var, video {
       font-size: 28px;
       color: #E5320D;
       display: block;
-      margin-top: -12px; }
+      margin-top: -12px;
+      text-transform: uppercase; }
     .img_block .img_hover a {
       text-decoration: none;
       color: #ffffff; }
@@ -505,3 +506,144 @@ tfoot, th, thead, time, tr, ul, var, video {
       margin-top: 32px; }
       #popup .form_wrapper button:hover {
         background: #F64F2D; }
+
+#content_block {
+  margin-top: 35px; }
+
+.date_text img {
+  display: inline-block;
+  margin-top: -8px; }
+
+.date_text p {
+  display: inline-block;
+  font-family: 'OpenSansRegular';
+  font-size: 20px;
+  color: #24136f;
+  padding-top: 5px;
+  text-transform: uppercase;
+  padding-left: 5px; }
+
+.date_text .public, .date_text .date_p {
+  font-size: 12px;
+  padding-left: 24px; }
+
+.date_text .date_p {
+  padding-left: 5px; }
+
+.address {
+  margin-top: 45px;
+  margin-left: 20px; }
+  .address p {
+    font-family: 'OpenSansSemiBold';
+    font-size: 28px;
+    color: #24136f;
+    display: inline-block;
+    line-height: 30px; }
+  .address .street {
+    display: block;
+    text-transform: uppercase; }
+
+.price_text {
+  margin-top: 80px;
+  margin-left: 20px; }
+  .price_text strong {
+    font-family: 'OpenSansSemiBold';
+    font-size: 36px;
+    color: #66cc66;
+    display: block; }
+  .price_text p {
+    font-family: 'OpenSansRegular';
+    font-size: 22px;
+    color: #ffffff;
+    display: inline-block;
+    background: #9999ff;
+    padding: 3px 12px; }
+
+.table_rev {
+  margin-top: 40px;
+  margin-left: 20px; }
+  .table_rev table {
+    font-family: 'OpenSansRegular';
+    font-size: 22px;
+    color: #24136f;
+    background: #ededfe;
+    border-collapse: collapse; }
+    .table_rev table td {
+      padding: 3px 20px; }
+      .table_rev table td sup {
+        font-size: 12px; }
+
+.callbeck {
+  display: block;
+  margin-left: 20px;
+  margin-top: 87px;
+  width: 385px;
+  height: 55px;
+  font-family: 'OpenSansSemiBold';
+  font-size: 22px;
+  color: #ffffff;
+  background: #ff5e1a;
+  border: none;
+  -webkit-border-radius: 20px;
+          border-radius: 20px; }
+  .callbeck:hover {
+    background: #f48c61; }
+
+.info {
+  margin-left: 20px;
+  margin-top: 70px; }
+  .info table {
+    font-family: 'OpenSansRegular';
+    font-size: 20px;
+    color: #24136f;
+    border-collapse: collapse; }
+    .info table caption {
+      font-family: 'OpenSansSemiBold';
+      font-size: 20px;
+      color: #24136f;
+      padding-top: 35px; }
+    .info table td {
+      padding-top: 20px; }
+
+.description {
+  margin-left: 20px;
+  margin-top: 70px; }
+  .description h2 {
+    font-family: 'OpenSansSemiBold';
+    font-size: 36px;
+    color: #24136f;
+    text-transform: uppercase;
+    padding-bottom: 25px; }
+  .description p {
+    font-family: 'OpenSansRegular';
+    font-size: 16px;
+    color: #24136f;
+    padding-right: 50px; }
+
+#panel {
+  position: relative;
+  margin-top: 12px; }
+  #panel #largeImage {
+    width: 400px;
+    height: 250px; }
+  #panel #discription {
+    background: #000;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    padding: 10px 20px;
+    width: 225px;
+    margin: 5px; }
+
+#thumbs {
+  padding-top: 10px;
+  position: relative; }
+  #thumbs img {
+    border: 1px solid gray;
+    padding: 4px;
+    background: #fff;
+    cursor: pointer;
+    float: left;
+    margin-right: 6px;
+    width: 96px;
+    height: 70px; }

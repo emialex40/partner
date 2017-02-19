@@ -263,6 +263,7 @@ $whiteColr: #ffffff
 			color: #E5320D
 			display: block
 			margin-top: -12px
+			text-transform: uppercase
 		a
 			text-decoration: none
 			color: $whiteColr
@@ -491,3 +492,144 @@ $whiteColr: #ffffff
 			margin-top: 32px
 			&:hover
 				background: #F64F2D
+
+// object page ********************************
+// *****************************************
+// *************************************
+
+#content_block
+	margin-top: 35px
+.date_text
+	img
+		display: inline-block
+		margin-top: -8px
+	p
+		display: inline-block
+		font-family: 'OpenSansRegular'
+		font-size: 20px
+		color: $siteColr
+		padding-top: 5px
+		text-transform: uppercase
+		padding-left: 5px
+	.public
+		font-size: 12px
+		padding-left: 24px
+	.date_p
+		@extend .public
+		padding-left: 5px
+
+.address
+	margin-top: 45px
+	margin-left: 20px
+	p
+		font-family: 'OpenSansSemiBold'
+		font-size: 28px
+		color: $siteColr
+		display: inline-block
+		line-height: 30px
+	.street
+		display: block
+		text-transform: uppercase
+
+.price_text
+	margin-top: 80px
+	margin-left: 20px
+	strong
+		font-family: 'OpenSansSemiBold'
+		font-size: 36px
+		color: #66cc66
+		display: block
+	p
+		font-family: 'OpenSansRegular'
+		font-size: 22px
+		color: $whiteColr
+		display: inline-block
+		background: #9999ff
+		padding: 3px 12px
+
+.table_rev
+	margin-top: 40px
+	margin-left: 20px
+	table
+		font-family: 'OpenSansRegular'
+		font-size: 22px
+		color: $siteColr
+		background: #ededfe
+		border-collapse: collapse
+		td
+			padding: 3px 20px
+			sup
+				font-size: 12px
+
+.callbeck
+	display: block
+	margin-left: 20px
+	margin-top: 87px
+	width: 385px
+	height: 55px
+	font-family: 'OpenSansSemiBold'
+	font-size: 22px
+	color: $whiteColr
+	background: #ff5e1a
+	border: none
+	border-radius: 20px
+	&:hover
+		background: #f48c61
+
+.info
+	margin-left: 20px
+	margin-top: 70px
+	table
+		font-family: 'OpenSansRegular'
+		font-size: 20px
+		color: $siteColr
+		border-collapse: collapse
+		caption
+			font-family: 'OpenSansSemiBold'
+			font-size: 20px
+			color: $siteColr
+			padding-top: 35px
+		td
+			padding-top: 20px
+.description
+	margin-left: 20px
+	margin-top: 70px
+	h2
+		font-family: 'OpenSansSemiBold'
+		font-size: 36px
+		color: $siteColr
+		text-transform: uppercase
+		padding-bottom: 25px
+	p
+		font-family: 'OpenSansRegular'
+		font-size: 16px
+		color: $siteColr
+		padding-right: 50px
+
+#panel
+	position: relative
+	margin-top: 12px
+	#largeImage
+		width: 400px
+		height: 250px
+	#discription
+		background: #000
+		color: #fff
+		position: absolute
+		bottom: 0
+		padding: 10px 20px
+		width: 225px
+		margin: 5px
+
+#thumbs
+	padding-top: 10px
+	position: relative
+	img
+		border: 1px solid gray
+		padding: 4px
+		background: #fff
+		cursor: pointer
+		float: left
+		margin-right: 6px
+		width: 96px
+		height: 70px
