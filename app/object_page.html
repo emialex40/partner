@@ -17,8 +17,12 @@
   	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
   	<link rel="icon" href="favicon.ico" type="image/x-icon">
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="libs/AD_Gallery/jquery.ad-gallery.css">
 
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src="libs/AD_Gallery/jquery.ad-gallery.js"></script>
+	
+
 </head>
 
 <body>
@@ -80,17 +84,57 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6">
-<div id="gallery">
-    <div id="panel">
-        <img id="largeImage" src="img/photo/photo_24751_18155.jpg" />
-    </div>
+				<div id="gallery" class="ad-gallery">
+				 <script type="text/javascript">
+  $(function() {
+    var galleries = $('.ad-gallery').adGallery();
+  });
+  </script>
+				<div class="ad-image-wrapper"></div>
+				<div class="ad-controls"></div>
+				<div class="ad-nav">
+				<div class="ad-thumbs">
+					<ul>
+						<li>
+							<a href="img/photo/photo_24751_18155.jpg">
+						    	<img src="img/photo/photo_24751_18155.jpg" title="Меня зовут Даша" longdesc="" class="image0">
+						    </a>
+						</li>
 
-    <div id="thumbs">
-        <img src="img/photo/photo_401268_129720.jpg" alt="Описание 1" />
-        <img src="img/photo/photo_482844_46368.JPG" alt="Описание 2" />
-        <img src="img/photo/photo_538928_730987.JPG" alt="Описание 3" />
-        <img src="img/photo/photo_682754_260967.jpg" alt="Описание 4" />
-        </div>
+					    <li>
+							<a href="img/photo/photo_24751_18155.jpg">
+						    	<img src="img/photo/photo_24751_18155.jpg" title="Меня зовут Даша" longdesc="" class="image0">
+						    </a>
+						</li>
+
+						 <li>
+							<a href="img/photo/photo_24751_18155.jpg">
+						    	<img src="img/photo/photo_24751_18155.jpg" title="Меня зовут Даша" longdesc="" class="image0">
+						    </a>
+						</li>
+
+						 <li>
+							<a href="img/photo/photo_24751_18155.jpg">
+						    	<img src="img/photo/photo_24751_18155.jpg" title="Меня зовут Даша" longdesc="" class="image0">
+						    </a>
+						</li>
+
+						 <li>
+							<a href="img/photo/photo_24751_18155.jpg">
+						    	<img src="img/photo/photo_24751_18155.jpg" title="Меня зовут Даша" longdesc="" class="image0">
+						    </a>
+						</li>
+
+						 <li>
+							<a href="img/photo/photo_24751_18155.jpg">
+						    	<img src="img/photo/photo_24751_18155.jpg" title="Меня зовут Даша" longdesc="" class="image0">
+						    </a>
+						</li>
+
+
+					</ul>
+		</div>
+	</div>
 </div>
 			</div>
 			<div class="col-md-6">

@@ -619,31 +619,3 @@ tfoot, th, thead, time, tr, ul, var, video {
     font-size: 16px;
     color: #24136f;
     padding-right: 50px; }
-
-#panel {
-  position: relative;
-  margin-top: 12px; }
-  #panel #largeImage {
-    width: 400px;
-    height: 250px; }
-  #panel #discription {
-    background: #000;
-    color: #fff;
-    position: absolute;
-    bottom: 0;
-    padding: 10px 20px;
-    width: 225px;
-    margin: 5px; }
-
-#thumbs {
-  padding-top: 10px;
-  position: relative; }
-  #thumbs img {
-    border: 1px solid gray;
-    padding: 4px;
-    background: #fff;
-    cursor: pointer;
-    float: left;
-    margin-right: 6px;
-    width: 96px;
-    height: 70px; }
