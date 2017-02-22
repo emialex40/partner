@@ -510,29 +510,28 @@ tfoot, th, thead, time, tr, ul, var, video {
 #content_block {
   margin-top: 35px; }
 
-.date_text img {
-  display: inline-block;
-  margin-top: -8px; }
-
-.date_text p {
-  display: inline-block;
-  font-family: 'OpenSansRegular';
-  font-size: 20px;
-  color: #24136f;
-  padding-top: 5px;
-  text-transform: uppercase;
-  padding-left: 5px; }
-
-.date_text .public, .date_text .date_p {
-  font-size: 12px;
-  padding-left: 24px; }
-
-.date_text .date_p {
-  padding-left: 5px; }
+.date_text {
+  margin-left: 50px; }
+  .date_text img {
+    display: inline-block;
+    margin-top: -8px; }
+  .date_text p {
+    display: inline-block;
+    font-family: 'OpenSansRegular';
+    font-size: 20px;
+    color: #24136f;
+    padding-top: 5px;
+    text-transform: uppercase;
+    padding-left: 5px; }
+  .date_text .public, .date_text .date_p {
+    font-size: 12px;
+    padding-left: 24px; }
+  .date_text .date_p {
+    padding-left: 5px; }
 
 .address {
   margin-top: 45px;
-  margin-left: 20px; }
+  margin-left: 50px; }
   .address p {
     font-family: 'OpenSansSemiBold';
     font-size: 28px;
@@ -545,7 +544,7 @@ tfoot, th, thead, time, tr, ul, var, video {
 
 .price_text {
   margin-top: 80px;
-  margin-left: 20px; }
+  margin-left: 50px; }
   .price_text strong {
     font-family: 'OpenSansSemiBold';
     font-size: 36px;
@@ -561,7 +560,7 @@ tfoot, th, thead, time, tr, ul, var, video {
 
 .table_rev {
   margin-top: 40px;
-  margin-left: 20px; }
+  margin-left: 50px; }
   .table_rev table {
     font-family: 'OpenSansRegular';
     font-size: 22px;
@@ -575,7 +574,7 @@ tfoot, th, thead, time, tr, ul, var, video {
 
 .callbeck {
   display: block;
-  margin-left: 20px;
+  margin-left: 50px;
   margin-top: 87px;
   width: 385px;
   height: 55px;
@@ -590,7 +589,7 @@ tfoot, th, thead, time, tr, ul, var, video {
     background: #f48c61; }
 
 .info {
-  margin-left: 20px;
+  margin-left: 50px;
   margin-top: 70px; }
   .info table {
     font-family: 'OpenSansRegular';
@@ -606,7 +605,7 @@ tfoot, th, thead, time, tr, ul, var, video {
       padding-top: 20px; }
 
 .description {
-  margin-left: 20px;
+  margin-left: 50px;
   margin-top: 70px; }
   .description h2 {
     font-family: 'OpenSansSemiBold';
@@ -619,3 +618,20 @@ tfoot, th, thead, time, tr, ul, var, video {
     font-size: 16px;
     color: #24136f;
     padding-right: 50px; }
+
+.ad-thumbs img {
+  width: 100px;
+  height: 80px; }
+
+#gallery {
+  margin-top: 15px; }
+
+.ad-image img {
+  width: 520px;
+  height: 350px; }
+
+.panorama {
+  margin-top: 135px; }
+
+.video-cont {
+  margin-top: 135px; }

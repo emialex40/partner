@@ -13,8 +13,8 @@
                      start_at_index: 0,
                      update_window_hash: false,
                      description_wrapper: false,
-                     thumb_opacity: 0.7, //прозрачность миниатюр
-                     animate_first_image: false, //анимация  первой картинки при открытии галереи
+                     thumb_opacity: 0.5, //прозрачность миниатюр
+                     animate_first_image: true, //анимация  первой картинки при открытии галереи
                      animation_speed: 800, //скорость анимации
                      width: false,
                      height: false,
@@ -23,21 +23,21 @@
                      scroll_jump: 0, // If 0, it jumps the width of the container
                      slideshow: {
                        enable: true, //запуск слайд-шоу
-                       autostart: false,
+                       autostart: true,
                        speed: 5000, //скорость смены картинок в миллисекундах
-                       start_label: 'Слайд-шоу&nbsp; &nbsp;  ',
-                       stop_label: 'Стоп',
+                       start_label: 'Start - &nbsp; &nbsp;',
+                       stop_label: 'Stop',
                        stop_on_scroll: true,
-                       countdown_prefix: '(',
-                       countdown_sufix: ')',
-                       onStart: false,
-                       onStop: false
+                       countdown_prefix: '',
+                       countdown_sufix: '',
+                       onStart: true,
+                       onStop: true
                      },
-                     effect: 'slide-hori', // эффекты слайд-шоу: 'slide-vert', 'fade',  'resize', 'none','slide-hori'
+                     effect: 'resize', // эффекты слайд-шоу: 'slide-vert', 'fade',  'resize', 'none','slide-hori'
                      enable_keyboard_move: true,
                      cycle: true,
                      hooks: {
-                       displayDescription: false
+                       displayDescription: true
                      },
                      callbacks: {
                        init: false,
@@ -160,7 +160,7 @@
     settings: false,
     images: false,
     in_transition: false,
-    animations: false,
+    animations: true,
     init: function(wrapper, settings) {
       var context = this;
       this.wrapper = $(wrapper);

@@ -1,15 +1,16 @@
 $(document).ready(function() {
 
 
+
 	      // anchor code
-var $page = $('html, body');
-  $('a[href*="#"]').click(function() {
-    event.preventDefault();
-      $page.animate({
-          scrollTop: $($.attr(this, 'href')).offset().top
-      }, 1000);
-    return false;
-});
+// var $page = $('html, body');
+//   $('a[href*="#"]').click(function() {
+//     event.preventDefault();
+//       $page.animate({
+//           scrollTop: $($.attr(this, 'href')).offset().top
+//       }, 1000);
+//     return false;
+// });
 
 $(".navbar").changeActiveNav();
 

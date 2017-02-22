@@ -433,8 +433,6 @@
 <!-- additional components end -->
 
 <!-- include scripts -->
-<!-- <script type="text/javascript" src="libs/jquery/dist/jquery.min.js"></script> -->
-<!-- <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script> -->
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script type="text/javascript" src="js/common.js"></script>
 <script type="text/javascript" src="js/libs.min.js"></script>
@@ -443,6 +441,16 @@
 <script type="text/javascript" src="libs/animate/animate-css.js"></script>
 <script type="text/javascript" src="libs/jquery.jrumble.1.3.min.js"></script>
 <script type="text/javascript" src="libs/jquery.changeActiveNav.min.js"></script>
+<script type="text/javascript" >
+	var $page = $('html, body');
+  $('a[href*="#"]').click(function() {
+    event.preventDefault();
+      $page.animate({
+          scrollTop: $($.attr(this, 'href')).offset().top
+      }, 1000);
+    return false;
+});
+</script>
 
 
 </body>
