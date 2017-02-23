@@ -1,6 +1,17 @@
 $(document).ready(function() {
 
 
+$(".form_wrapper").submit(function() {
+  var form_data = $(this).serialize();
+  $.ajax({
+    type: 'POST',
+    url: 'send.php',
+    data: form_data,
+    success: function() {
+      alert("Ваше сообщение отправленно!");
+      }
+    });
+  });
 
 	      // anchor code
 // var $page = $('html, body');
@@ -156,3 +167,4 @@ $(".loader").delay(200).fadeOut("slow");
 $(".logo img").addClass('animated flip');
 
 });
+

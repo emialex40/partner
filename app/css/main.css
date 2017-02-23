@@ -491,7 +491,7 @@ tfoot, th, thead, time, tr, ul, var, video {
       margin-left: 109px;
       margin-bottom: 20px;
       padding-left: 10px; }
-    #popup .form_wrapper button {
+    #popup .form_wrapper .button {
       width: 150px;
       height: 35px;
       font-family: 'OpenSansBold';
@@ -504,7 +504,7 @@ tfoot, th, thead, time, tr, ul, var, video {
               border-radius: 20px;
       margin-left: 110px;
       margin-top: 32px; }
-      #popup .form_wrapper button:hover {
+      #popup .form_wrapper .button:hover {
         background: #F64F2D; }
 
 #content_block {
@@ -623,12 +623,11 @@ tfoot, th, thead, time, tr, ul, var, video {
   width: 100px;
   height: 80px; }
 
-#gallery {
+.fotorama {
   margin-top: 15px; }
 
-.ad-image img {
-  width: 520px;
-  height: 350px; }
+.fotorama__thumb-border {
+  border-color: #24136f !important; }
 
 .panorama {
   margin-top: 135px; }
