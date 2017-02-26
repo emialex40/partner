@@ -23,29 +23,29 @@ function partner_styles() {
 add_action( 'wp_enqueue_scripts', 'partner_styles' );
 
 function partner_scripts () {
-	wp_deregister_script( 'jquery' );
+	wp_deregister_script('jquery');
 	wp_register_script('jquery', get_template_directory_uri() . '/libs/jquery-1.8.3.min.js');
 	wp_enqueue_script('jquery');
 
-	wp_register_script('fotorama', get_template_directory_uri() . '/libs/fotorama-4.6.4/fotorama.js', array(jquery), null, false);
+	wp_register_script('fotorama', get_template_directory_uri() . '/libs/fotorama-4.6.4/fotorama.js', array(jquery), null, true);
 	wp_enqueue_script('fotorama');
 
-	wp_register_script('main', get_template_directory_uri() . '/libs/main.js', array(jquery), null, false);
+	wp_register_script('main', get_template_directory_uri() . '/libs/main.js', array(jquery), null, true);
 	wp_enqueue_script('main');
 
-	wp_register_script('slick', get_template_directory_uri() . '/libs/slick/slick.js', array(jquery), null, false);
+	wp_register_script('slick', get_template_directory_uri() . '/libs/slick/slick.js', array(jquery), null, true);
 	wp_enqueue_script('slick');
 
-	wp_register_script('bootstrap', get_template_directory_uri() . '/libs/bootstrap/js/bootstrap.min.js', array(jquery), null, false);
+	wp_register_script('bootstrap', get_template_directory_uri() . '/libs/bootstrap/js/bootstrap.min.js', array(jquery), null, true);
 	wp_enqueue_script('bootstrap');
 
-	/*wp_register_script('animate', get_template_directory_uri() . '/libs/animate/animate-css.js', array(jquery), null, true);
-	wp_enqueue_script('animate');*/
+	wp_register_script('animate', get_template_directory_uri() . '/libs/animate/animate-css.js', array(jquery), null, true);
+	wp_enqueue_script('animate');
 
 	wp_register_script('jrumble', get_template_directory_uri() . '/libs/jquery.jrumble.1.3.min.js', array(jquery), null, true);
 	wp_enqueue_script('jrumble');
 
-	wp_register_script('changeActiveNav', get_template_directory_uri() . '/libs/jquery.changeActiveNav.min.js', array(jquery), null, false);
+	wp_register_script('changeActiveNav', get_template_directory_uri() . '/libs/jquery.changeActiveNav.min.js', array(jquery), null, true);
 	wp_enqueue_script('changeActiveNav');
 
 }
