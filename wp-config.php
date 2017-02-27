@@ -32,7 +32,7 @@ define('DB_PASSWORD', '');
 define('DB_HOST', 'localhost');
 
 /** Кодировка базы данных для создания таблиц. */
-define('DB_CHARSET', 'utf8');
+define('DB_CHARSET', 'utf8mb4');
 
 /** Схема сопоставления. Не меняйте, если не уверены. */
 define('DB_COLLATE', '');
@@ -46,14 +46,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         ' {5 @zxo^gpUrKC9{jq<?^+L6O@rufb,O15MWaP;{}:(.!`#Rp8eD#}6%Nh.hupj');
-define('SECURE_AUTH_KEY',  'xG8SIA3#?`<#9.]0be4/W7JUnj=WZV~[9S@oNyu,%>poNcIq9Ji|8Rovg}Dd<Q>*');
-define('LOGGED_IN_KEY',    't!=0hk([b_({?2LR)a)fUF2J|yc8@:OLsO&xUiuSMTCp^C !;*vMlbx|p;$e%rL~');
-define('NONCE_KEY',        '=T1?~RH8*GC3=k=TLag7F,@- ?!$y#C!7X:32>rK;O7y%qR-;f%ZfwhYm-mMjUX-');
-define('AUTH_SALT',        'Iarl<fU<uZzTu]$n[?>=EX|][#76xTk4Ju*V5Q2f^(z0R6ux&ge{|rL9:|M$qH0[');
-define('SECURE_AUTH_SALT', 'q-rNCWWE;J=R8q] >,`Si&54ID(;G6=xM$:JZf75/~2 oUVyLCu@9*eiAW<WML^v');
-define('LOGGED_IN_SALT',   '5BfLs9XY]#aWaksr6S4f35Iq4=[KaU+^Xu[svW#[~.k{>xX#!~#SEmcts.PqJX-,');
-define('NONCE_SALT',       '-f~e=%W2V`)6q%&oO1lwld7/l}Q0u:845?0A0tWv>S#Rc_l!*}d_6[,W5+4r+(gd');
+define('AUTH_KEY',         'j3?zjr/zB#K|}%Vub6~x/(pWH_^M _W*R1JK*lj$?a$5F~;T#K}[_8`Ut-@]5:(_');
+define('SECURE_AUTH_KEY',  'bxU#>Vp;< 4K~<-V)$@[RV?%N84GLo.*bfR+F-;-Ug^[!5UMW6_mo6D00?z>#ILu');
+define('LOGGED_IN_KEY',    '/Ca<][:Ck5TN5L4Fu./RsElKcu~-b$Q)KS(LF$u60-U|rRy-m=*]|RD%ygO27oS?');
+define('NONCE_KEY',        't7*gviDzGE[k5wL?n(;NaFWQqF3#K/8_#&sRnE@1[ebR)28amtbHW/JPpy4h}9K*');
+define('AUTH_SALT',        '07v+W/I#xH^h$][RIwLO5$e:!U9dCA=Po/ &_uI]XC#XIL2Btnnom/omf*H#5(^p');
+define('SECURE_AUTH_SALT', '6G!QNc`2=pH_] >Wd~$4x]Sm)DM8$y+jKwH#nr2D[2|d]Hvco?vo9#7(wF;YwX#N');
+define('LOGGED_IN_SALT',   '35~MG(S<u}cAg)sZMF>:Fk+0OVpVV7Qy1TPwDv,H1B/+PzCh@QDB8r4AiyteFC;(');
+define('NONCE_SALT',       'iOKPhS~yH8wcc$_V]aEj;:uM:Yy/Hfz82Z]26$icK*^+0Zj^*yz~]?>ly.L{?VpQ');
 
 /**#@-*/
 
