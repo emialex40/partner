@@ -37,7 +37,7 @@
 	<div class="footer">
 		<div class="container">
 			<div class="row">
-				<p>&copy;АН «ПАРТНЕР», 2003-2017. Усі права захищені</p>
+				<p>&copy;АН «ПАРТНЕР», 2003-<?php echo date("Y");?>. Усі права захищені</p>
 			</div>
 		</div>
 	</div>

@@ -44,12 +44,13 @@
 	<div class="section blue">
 		<div class="container">
 			<div class="row">
-				<h2>Житлова</h2>
+				<h2><?php echo get_cat_name(2);?></h2>
 				<div class="col-md-12">
 					<div class="r_estate">
 						<div class="sl">
+
 							    <div class="img_block">
-							    	<img src="<?php bloginfo('template_url'); ?>/img/photo/photo_24751_18155.jpg" alt="photo_24751_18155">
+						    		<img src="<?php bloginfo('template_url'); ?>/img/photo/photo_24751_18155.jpg" alt="photo_24751_18155">
 							    	<div class="img_hover" id="home_1">
 							    		<p>3 комн., площадь 68/39/8, этаж 1/2</p>
 							    		<strong class="price">Продаж</strong>
@@ -58,45 +59,45 @@
 							    </div>
 
 							    <div class="img_block">
-							    <img src="<?php bloginfo('template_url'); ?>/img/photo/photo_401268_129720.jpg" alt="photo_24751_18155">
-									<div class="img_hover" id="home_2">
-							    		<p>3 комн., площадь 68/39/8, этаж 1/2</p>
-							    		<strong class="price">Оренда</strong>
-							    		<a href="object_page.html"><span>докладно</span></a>
-							    	</div>
-							    </div>
-							    <div class="img_block">
-							    <img src="<?php bloginfo('template_url'); ?>/img/photo/photo_482844_46368.JPG" alt="photo_24751_18155">
-							    	<div class="img_hover" id="home_3">
-							    		<p>3 комн., площадь 68/39/8, этаж 1/2</p>
-							    		<strong class="price">Продаж</strong>
-							    		<a href="object_page.html"><span>докладно</span></a>
-							    	</div>
+							   							   <img src="<?php bloginfo('template_url'); ?>/img/photo/photo_401268_129720.jpg" alt="photo_24751_18155">
+							   							   									<div class="img_hover" id="home_2">
+							   							   		<p>3 комн., площадь 68/39/8, этаж 1/2</p>
+							   							   		<strong class="price">Оренда</strong>
+							   							   		<a href="object_page.html"><span>докладно</span></a>
+							   							   	</div>
+							   							   </div>
+							   <div class="img_block">
+							   <img src="<?php bloginfo('template_url'); ?>/img/photo/photo_482844_46368.JPG" alt="photo_24751_18155">
+							   	<div class="img_hover" id="home_3">
+							   		<p>3 комн., площадь 68/39/8, этаж 1/2</p>
+							   		<strong class="price">Продаж</strong>
+							   		<a href="object_page.html"><span>докладно</span></a>
+							   	</div>
+							   							   </div>
+							   <div class="img_block">
+							   							   	<img src="<?php bloginfo('template_url'); ?>/img/photo/photo_24751_18155.jpg" alt="photo_24751_18155">
+							   							   	<div class="img_hover" id="home_1">
+							   							   		<p>3 комн., площадь 68/39/8, этаж 1/2</p>
+							   							   		<strong class="price">Продаж</strong>
+							   							   		<a href="object_page.html"><span>докладно</span></a>
+							   							   	</div>
+							   							   </div>
+							   <div class="img_block">
+							   	<img src="<?php bloginfo('template_url'); ?>/img/photo/photo_24751_18155.jpg" alt="photo_24751_18155">
+							   	<div class="img_hover" id="home_1">
+							   		<p>3 комн., площадь 68/39/8, этаж 1/2</p>
+							   		<strong class="price">Продаж</strong>
+							   		<a href="object_page.html"><span>докладно</span></a>
+							   	</div>
 							   </div>
-							    <div class="img_block">
-							    	<img src="<?php bloginfo('template_url'); ?>/img/photo/photo_24751_18155.jpg" alt="photo_24751_18155">
-							    	<div class="img_hover" id="home_1">
-							    		<p>3 комн., площадь 68/39/8, этаж 1/2</p>
-							    		<strong class="price">Продаж</strong>
-							    		<a href="object_page.html"><span>докладно</span></a>
-							    	</div>
-							    </div>
-							    <div class="img_block">
-							    	<img src="<?php bloginfo('template_url'); ?>/img/photo/photo_24751_18155.jpg" alt="photo_24751_18155">
-							    	<div class="img_hover" id="home_1">
-							    		<p>3 комн., площадь 68/39/8, этаж 1/2</p>
-							    		<strong class="price">Продаж</strong>
-							    		<a href="object_page.html"><span>докладно</span></a>
-							    	</div>
-							    </div>
-							    <div class="img_block">
-							    	<img src="<?php bloginfo('template_url'); ?>/img/photo/photo_24751_18155.jpg" alt="photo_24751_18155">
-							    	<div class="img_hover" id="home_1">
-							    		<p>3 комн., площадь 68/39/8, этаж 1/2</p>
-							    		<strong class="price">Оренда</strong>
-							    		<a href="object_page.html"><span>докладно</span></a>
-							    	</div>
-							    </div>
+							   <div class="img_block">
+							   	<img src="<?php bloginfo('template_url'); ?>/img/photo/photo_24751_18155.jpg" alt="photo_24751_18155">
+							   	<div class="img_hover" id="home_1">
+							   		<p>3 комн., площадь 68/39/8, этаж 1/2</p>
+							   		<strong class="price">Оренда</strong>
+							   		<a href="object_page.html"><span>докладно</span></a>
+							   	</div>
+							   </div>
   							</div>
 					</div>
 				</div>
@@ -106,10 +107,11 @@
 	<div class="section blue">
 		<div class="container">
 			<div class="row">
-				<h2>Комерційна</h2>
+				<h2><?php echo get_cat_name(3);?></h2>
 				<div class="col-md-12">
 					<div class="r_estate">
 						  	<div class="sl">
+						  	
 							    <div class="img_block">
 							    	<img src="<?php bloginfo('template_url'); ?>/img/photo/photo_24751_18155.jpg" alt="photo_24751_18155">
 							    	<div class="img_hover" id="comerse_1">
@@ -126,7 +128,7 @@
 							    		<a href="object_page.html"><span>докладно</span></a>
 							    	</div>
 							    </div>
-							   <div class="img_block">
+							    							   <div class="img_block">
 							    	<img src="<?php bloginfo('template_url'); ?>/img/photo/photo_24751_18155.jpg" alt="photo_24751_18155">
 							    	<div class="img_hover" id="comerse_1">
 							    		<p>3 комн., площадь 68/39/8, этаж 1/2</p>
@@ -167,7 +169,7 @@
 	<div class="section blue">
 		<div class="container">
 			<div class="row">
-				<h2>Зарубіжна</h2>
+				<h2><?php echo get_cat_name(4);?></h2>
 				<div class="col-md-12">
 					<div class="r_estate">
 						<div class="sl">
@@ -221,7 +223,7 @@
 <div class="section rev_section" id="anchor3">
 		<div class="container">
 			<div class="row">
-					<h2>Відгуки</h2>
+					<h2><?php echo get_cat_name(5);?></h2>
 				<div class="col-md-12">
 					<div class="r_estate">
 						<div class="reviews">
