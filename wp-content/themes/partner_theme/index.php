@@ -48,56 +48,19 @@
 				<div class="col-md-12">
 					<div class="r_estate">
 						<div class="sl">
-
-							    <div class="img_block">
-						    		<img src="<?php bloginfo('template_url'); ?>/img/photo/photo_24751_18155.jpg" alt="photo_24751_18155">
-							    	<div class="img_hover" id="home_1">
+									<?php
+										$recent = new WP_Query('cat=2&nopaging=1');
+									 	while($recent -> have_posts()) : $recent -> the_post(); ?>
+										<div class="img_block">
+										<?php the_content( ); ?>
+										<div class="img_hover" id="home_1">
 							    		<p>3 комн., площадь 68/39/8, этаж 1/2</p>
-							    		<strong class="price">Продаж</strong>
-							    		<a href="object_page.html"><span>докладно</span></a>
+								    		<strong class="price">Продаж</strong>
+								    		<a href="http://partner/object_page/"><span>докладно</span></a>
+							    		</div>
 							    	</div>
-							    </div>
-
-							    <div class="img_block">
-							   							   <img src="<?php bloginfo('template_url'); ?>/img/photo/photo_401268_129720.jpg" alt="photo_24751_18155">
-							   							   									<div class="img_hover" id="home_2">
-							   							   		<p>3 комн., площадь 68/39/8, этаж 1/2</p>
-							   							   		<strong class="price">Оренда</strong>
-							   							   		<a href="object_page.html"><span>докладно</span></a>
-							   							   	</div>
-							   							   </div>
-							   <div class="img_block">
-							   <img src="<?php bloginfo('template_url'); ?>/img/photo/photo_482844_46368.JPG" alt="photo_24751_18155">
-							   	<div class="img_hover" id="home_3">
-							   		<p>3 комн., площадь 68/39/8, этаж 1/2</p>
-							   		<strong class="price">Продаж</strong>
-							   		<a href="object_page.html"><span>докладно</span></a>
-							   	</div>
-							   							   </div>
-							   <div class="img_block">
-							   							   	<img src="<?php bloginfo('template_url'); ?>/img/photo/photo_24751_18155.jpg" alt="photo_24751_18155">
-							   							   	<div class="img_hover" id="home_1">
-							   							   		<p>3 комн., площадь 68/39/8, этаж 1/2</p>
-							   							   		<strong class="price">Продаж</strong>
-							   							   		<a href="object_page.html"><span>докладно</span></a>
-							   							   	</div>
-							   							   </div>
-							   <div class="img_block">
-							   	<img src="<?php bloginfo('template_url'); ?>/img/photo/photo_24751_18155.jpg" alt="photo_24751_18155">
-							   	<div class="img_hover" id="home_1">
-							   		<p>3 комн., площадь 68/39/8, этаж 1/2</p>
-							   		<strong class="price">Продаж</strong>
-							   		<a href="object_page.html"><span>докладно</span></a>
-							   	</div>
-							   </div>
-							   <div class="img_block">
-							   	<img src="<?php bloginfo('template_url'); ?>/img/photo/photo_24751_18155.jpg" alt="photo_24751_18155">
-							   	<div class="img_hover" id="home_1">
-							   		<p>3 комн., площадь 68/39/8, этаж 1/2</p>
-							   		<strong class="price">Оренда</strong>
-							   		<a href="object_page.html"><span>докладно</span></a>
-							   	</div>
-							   </div>
+							    	<?php wp_reset_postdata(); ?>
+									<?php endwhile; ?>
   							</div>
 					</div>
 				</div>
@@ -111,55 +74,19 @@
 				<div class="col-md-12">
 					<div class="r_estate">
 						  	<div class="sl">
-						  	
-							    <div class="img_block">
-							    	<img src="<?php bloginfo('template_url'); ?>/img/photo/photo_24751_18155.jpg" alt="photo_24751_18155">
-							    	<div class="img_hover" id="comerse_1">
+							<?php 
+								$recent = new WP_Query('cat=3&nopaging=1');
+								while($recent -> have_posts()) : $recent -> the_post(); ?>
+										<div class="img_block">
+										<?php the_content( ); ?>
+										<div class="img_hover" id="home_1">
 							    		<p>3 комн., площадь 68/39/8, этаж 1/2</p>
-							    		<strong class="price">Оренда</strong>
-							    		<a href="object_page.html"><span>докладно</span></a>
+								    		<strong class="price">Продаж</strong>
+								    		<a href="http://partner/object_page/"><span>докладно</span></a>
+							    		</div>
 							    	</div>
-							    </div>
-							    <div class="img_block">
-							    	<img src="<?php bloginfo('template_url'); ?>/img/photo/photo_24751_18155.jpg" alt="photo_24751_18155">
-							    	<div class="img_hover" id="comerse_1">
-							    		<p>3 комн., площадь 68/39/8, этаж 1/2</p>
-							    		<strong class="price">Оренда</strong>
-							    		<a href="object_page.html"><span>докладно</span></a>
-							    	</div>
-							    </div>
-							    							   <div class="img_block">
-							    	<img src="<?php bloginfo('template_url'); ?>/img/photo/photo_24751_18155.jpg" alt="photo_24751_18155">
-							    	<div class="img_hover" id="comerse_1">
-							    		<p>3 комн., площадь 68/39/8, этаж 1/2</p>
-							    		<strong class="price">Продаж</strong>
-							    		<a href="object_page.html"><span>докладно</span></a>
-							    	</div>
-							    </div>
-							    <div class="img_block">
-							    	<img src="<?php bloginfo('template_url'); ?>/img/photo/photo_24751_18155.jpg" alt="photo_24751_18155">
-							    	<div class="img_hover" id="comerse_1">
-							    		<p>3 комн., площадь 68/39/8, этаж 1/2</p>
-							    		<strong class="price">ПРодаж</strong>
-							    		<a href="object_page.html"><span>докладно</span></a>
-							    	</div>
-							    </div>
-							    <div class="img_block">
-							    	<img src="<?php bloginfo('template_url'); ?>/img/photo/photo_24751_18155.jpg" alt="photo_24751_18155">
-							    	<div class="img_hover" id="comerse_1">
-							    		<p>3 комн., площадь 68/39/8, этаж 1/2</p>
-							    		<strong class="price">Продаж</strong>
-							    		<a href="object_page.html"><span>докладно</span></a>
-							    	</div>
-							    </div>
-							    <div class="img_block">
-							    	<img src="<?php bloginfo('template_url'); ?>/img/photo/photo_24751_18155.jpg" alt="photo_24751_18155">
-							    	<div class="img_hover" id="comerse_1">
-							    		<p>3 комн., площадь 68/39/8, этаж 1/2</p>
-							    		<strong class="price">Оренда</strong>
-							    		<a href="object_page.html"><span>докладно</span></a>
-							    	</div>
-							    </div>
+							    	<?php wp_reset_postdata(); ?>
+								<?php endwhile; ?>
   							</div>
 					</div>
 				</div>
@@ -173,46 +100,19 @@
 				<div class="col-md-12">
 					<div class="r_estate">
 						<div class="sl">
-							   <div class="img_block">
-							    	<img src="<?php bloginfo('template_url'); ?>/img/photo/photo_24751_18155.jpg" alt="photo_24751_18155">
-							    	<div class="img_hover" id="foreign_1">
+							  <?php 
+								$recent = new WP_Query('cat=4&nopaging=1');
+								while($recent -> have_posts()) : $recent -> the_post(); ?>
+										<div class="img_block">
+										<?php the_content( ); ?>
+										<div class="img_hover" id="home_1">
 							    		<p>3 комн., площадь 68/39/8, этаж 1/2</p>
-							    		<strong class="price">Продаж</strong>
-							    		<a href="object_page.html"><span>докладно</span></a>
+								    		<strong class="price">Продаж</strong>
+								    		<a href="http://partner/object_page/"><span>докладно</span></a>
+							    		</div>
 							    	</div>
-							    </div>
-							    <div class="img_block">
-							    	<img src="<?php bloginfo('template_url'); ?>/img/photo/photo_24751_18155.jpg" alt="photo_24751_18155">
-							    	<div class="img_hover" id="foreign_1">
-							    		<p>3 комн., площадь 68/39/8, этаж 1/2</p>
-							    		<strong class="price">ПРодаж</strong>
-							    		<a href="object_page.html"><span>докладно</span></a>
-							    	</div>
-							    </div>
-							   <div class="img_block">
-							    	<img src="<?php bloginfo('template_url'); ?>/img/photo/photo_24751_18155.jpg" alt="photo_24751_18155">
-							    	<div class="img_hover" id="foreign_1">
-							    		<p>3 комн., площадь 68/39/8, этаж 1/2</p>
-							    		<strong class="price">Продаж</strong>
-							    		<a href="object_page.html"><span>докладно</span></a>
-							    	</div>
-							    </div>
-							   <div class="img_block">
-							    	<img src="<?php bloginfo('template_url'); ?>/img/photo/photo_24751_18155.jpg" alt="photo_24751_18155">
-							    	<div class="img_hover" id="foreign_1">
-							    		<p>3 комн., площадь 68/39/8, этаж 1/2</p>
-							    		<strong class="price">Оренда</strong>
-							    		<a href="object_page.html"><span>докладно</span></a>
-							    	</div>
-							    </div>
-							    <div class="img_block">
-							    	<img src="<?php bloginfo('template_url'); ?>/img/photo/photo_24751_18155.jpg" alt="photo_24751_18155">
-							    	<div class="img_hover" id="foreign_1">
-							    		<p>3 комн., площадь 68/39/8, этаж 1/2</p>
-							    		<strong class="price">Оренда</strong>
-							    		<a href="object_page.html"><span>докладно</span></a>
-							    	</div>
-							    </div>
+							    	<?php wp_reset_postdata(); ?>
+								<?php endwhile; ?>
   							</div>
 					</div>
 				</div>
@@ -227,49 +127,18 @@
 				<div class="col-md-12">
 					<div class="r_estate">
 						<div class="reviews">
-							    <div class="img_block">
-								    <div class="ava">
-								    	<img src="<?php bloginfo('template_url'); ?>/img/men.jpg" alt="avatar_1">
-								    </div>
-								    <h3>Михаил Соколов</h3>
-								    <p class="rvws">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes</p>
+							<?php
+								$recent = new WP_Query('cat=5&nopaging=1');
+								while($recent -> have_posts()) : $recent -> the_post(); ?>
+										<div class="img_block">
+								    		<div class="ava">
+								    			<?php the_post_thumbnail(); ?>
+								    		</div>
+								    	<h3><?php echo get_the_title( $post ) ?></h3>
+								    		<p><?php the_content( ); ?></p>
 							    </div>
-							    <div class="img_block">
-								    <div class="ava">
-								    	<img src="<?php bloginfo('template_url'); ?>/img/men.jpg" alt="avatar_1">
-								    </div>
-								    <h3>Михаил Соколов</h3>
-								    <p class="rvws">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes</p>
-							    </div>
-							    <div class="img_block">
-								    <div class="ava">
-								    	<img src="<?php bloginfo('template_url'); ?>/img/men.jpg" alt="avatar_1">
-								    </div>
-								    <h3>Михаил Соколов</h3>
-								    <p class="rvws">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes</p>
-							    </div>
-							    <div class="img_block">
-								    <div class="ava">
-								    	<img src="<?php bloginfo('template_url'); ?>/img/men.jpg" alt="avatar_1">
-								    </div>
-								    <h3>Михаил Соколов</h3>
-								    <p class="rvws">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes</p>
-							    </div>
-							    <div class="img_block">
-								    <div class="ava">
-								    	<img src="<?php bloginfo('template_url'); ?>/img/men.jpg" alt="avatar_1">
-								    </div>
-								    <h3>Михаил Соколов</h3>
-								    <p class="rvws">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes</p>
-							    </div>
-							    <div class="img_block">
-								    <div class="ava">
-								    	<img src="<?php bloginfo('template_url'); ?>/img/men.jpg" alt="avatar_1">
-								    </div>
-								    <h3>Михаил Соколов</h3>
-								    <p class="rvws">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes</p>
-							    </div>
-  							</div>
+							    	<?php wp_reset_postdata(); ?>
+								<?php endwhile; ?>
 					</div>
 				</div>
 			</div>

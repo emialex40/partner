@@ -5,14 +5,6 @@ remove_action('wp_head', 'rss_link');
 remove_action('wp_head', 'wlwmanifest_link');
 remove_action('wp_head', 'wp_generator');
 
-add_action( 'wp_enqueue_scripts', 'slick_slider_enqueue_assets' );
-function slick_slider_enqueue_assets() {
-    wp_enqueue_script( 'slick-slider-core' );
-    wp_enqueue_style( 'slick-slider-core-theme' );
-}
-
-add_theme_support( 'post-thumbnails' );
-
 function partner_styles() {
 	wp_enqueue_style('style', get_stylesheet_uri() );
 
@@ -56,3 +48,5 @@ function partner_scripts () {
 
 }
 add_action( 'wp_enqueue_scripts', 'partner_scripts' );
+
+add_theme_support( 'post-thumbnails' );

@@ -93,8 +93,8 @@ $('.call img').trigger('startRumble');
 
 $('.reviews').slick({
   slidesToShow: 3,
-  slidesToScroll: 1,
-  autoplay: true,
+  slidesToScroll: 3,
+  autoplay: false,
   autoplaySpeed: 2000,
   arrows: true,
   nextArrow: '<span class="rev-prev"></span>',
