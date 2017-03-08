@@ -7,4 +7,4 @@ else{
 	get_template_part( 'templates/page' );
 }
 
-get_footer(); ?>
+get_footer();   ?>
