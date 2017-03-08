@@ -82,7 +82,7 @@
 										<div class="img_hover" id="home_1">
 											<p><?php echo (get_post_meta($post->ID, 'кол-во комнат', true)); ?>,Площа: <?php echo (get_post_meta($post->ID, 'Пощадь', true)); ?>.кв</p>
 											<strong class="price"><?php echo (get_post_meta($post->ID, 'продажа-аренда', true)); ?></strong>
-								    		<a href="http://partner/object_page/"><span>докладно</span></a>
+								    		<a href="<?php the_permalink(); ?>"><span>докладно</span></a>
 							    		</div>
 							    	</div>
 							    	<?php wp_reset_postdata(); ?>
@@ -108,7 +108,7 @@
 										<div class="img_hover" id="home_1">
 							    			<p><?php echo (get_post_meta($post->ID, 'кол-во комнат', true)); ?>,Площа: <?php echo (get_post_meta($post->ID, 'Пощадь', true)); ?>.кв</p>
 											<strong class="price"><?php echo (get_post_meta($post->ID, 'продажа-аренда', true)); ?></strong>
-											<a href="http://partner/object_page/"><span>докладно</span></a>
+											<a href="<?php the_permalink(); ?>"><span>докладно</span></a>
 							    		</div>
 							    	</div>
 							    	<?php wp_reset_postdata(); ?>

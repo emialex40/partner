@@ -5,7 +5,9 @@
 		<div class="row">
 
 	<?php
-	$query = new WP_Query('cat ->ID&nopaging=1');
+	$post_info = get_post();
+	$post_name = (!empty($post_info->post_name)) ? $post_info->post_name : '';
+ 	$query = new WP_Query( array( 'name' => $post_name ) );
 	while ($query -> have_posts()): $query -> the_post();
 		?>
 
@@ -82,6 +84,7 @@
 				</p>
 			</div>
 		</div>
+		<?php break; ?>
 	<?php endwhile; ?>
 
 		</div>
