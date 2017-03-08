@@ -4,6 +4,7 @@ show_admin_bar(false);
 remove_action('wp_head', 'rss_link');
 remove_action('wp_head', 'wlwmanifest_link');
 remove_action('wp_head', 'wp_generator');
+remove_filter('the_content', 'wpautop');
 
 function partner_styles() {
 	wp_enqueue_style('style', get_stylesheet_uri() );

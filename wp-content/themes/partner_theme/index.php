@@ -52,11 +52,11 @@
 										$recent = new WP_Query('cat=2&nopaging=1');
 									 	while($recent -> have_posts()) : $recent -> the_post(); ?>
 										<div class="img_block">
-										<?php the_content( ); ?>
+										<?php the_post_thumbnail('full'); ?>
 										<div class="img_hover" id="home_1">
-							    		<p>3 комн., площадь 68/39/8, этаж 1/2</p>
-								    		<strong class="price">Продаж</strong>
-								    		<a href="http://partner/object_page/"><span>докладно</span></a>
+							    		<p><?php echo (get_post_meta($post->ID, 'кол-во комнат', true)); ?>,Площа: <?php echo (get_post_meta($post->ID, 'Пощадь', true)); ?>.кв</p>
+								    		<strong class="price"><?php echo (get_post_meta($post->ID, 'продажа-аренда', true)); ?></strong>
+								    		<a href="<?php the_permalink(); ?>"><span>докладно</span></a>
 							    		</div>
 							    	</div>
 							    	<?php wp_reset_postdata(); ?>
@@ -78,10 +78,10 @@
 								$recent = new WP_Query('cat=3&nopaging=1');
 								while($recent -> have_posts()) : $recent -> the_post(); ?>
 										<div class="img_block">
-										<?php the_content( ); ?>
+											<?php the_post_thumbnail('full'); ?>
 										<div class="img_hover" id="home_1">
-							    		<p>3 комн., площадь 68/39/8, этаж 1/2</p>
-								    		<strong class="price">Продаж</strong>
+											<p><?php echo (get_post_meta($post->ID, 'кол-во комнат', true)); ?>,Площа: <?php echo (get_post_meta($post->ID, 'Пощадь', true)); ?>.кв</p>
+											<strong class="price"><?php echo (get_post_meta($post->ID, 'продажа-аренда', true)); ?></strong>
 								    		<a href="http://partner/object_page/"><span>докладно</span></a>
 							    		</div>
 							    	</div>
@@ -104,11 +104,11 @@
 								$recent = new WP_Query('cat=4&nopaging=1');
 								while($recent -> have_posts()) : $recent -> the_post(); ?>
 										<div class="img_block">
-										<?php the_content( ); ?>
+											<?php the_post_thumbnail('full'); ?>
 										<div class="img_hover" id="home_1">
-							    		<p>3 комн., площадь 68/39/8, этаж 1/2</p>
-								    		<strong class="price">Продаж</strong>
-								    		<a href="http://partner/object_page/"><span>докладно</span></a>
+							    			<p><?php echo (get_post_meta($post->ID, 'кол-во комнат', true)); ?>,Площа: <?php echo (get_post_meta($post->ID, 'Пощадь', true)); ?>.кв</p>
+											<strong class="price"><?php echo (get_post_meta($post->ID, 'продажа-аренда', true)); ?></strong>
+											<a href="http://partner/object_page/"><span>докладно</span></a>
 							    		</div>
 							    	</div>
 							    	<?php wp_reset_postdata(); ?>
@@ -132,7 +132,7 @@
 								while($recent -> have_posts()) : $recent -> the_post(); ?>
 										<div class="img_block">
 								    		<div class="ava">
-								    			<?php the_post_thumbnail(); ?>
+								    			<?php the_post_thumbnail('full'); ?>
 								    		</div>
 								    	<h3><?php echo get_the_title( $post ) ?></h3>
 								    		<p><?php the_content( ); ?></p>
