@@ -55,15 +55,15 @@
 <!-- on top button end -->
 
 <!-- pop up call -->
-<div class="call">
+<!-- <div class="call">
 	<img src="<?php bloginfo('template_url'); ?>/img/icons/call_phone.png" alt="call_phone">
-</div>
+</div> -->
 <!-- pop up call end -->
 
 <!-- popup window -->
-<div id="parent_popup"></div>
+<!--<div id="parent_popup"></div>
 
-<div id="popup">
+ <div id="popup">
 <div class="title_win">
 	<strong>Замовлення зворотнього дзвінка</strong>
 	<i class="fa fa-times" aria-hidden="true"></i>
@@ -75,7 +75,7 @@
 			<input type="tel" placeholder="Телефон" name="tel" pattern="+[0-9]{3}-[0-9]{3}-[0-9]{2}[0-9]{2}" name= "phone">
 			<input class="button" type="submit" value="Відправити">
 		</form>
-	</div>
+	</div> -->
 	
 </div>
 <!-- popup window end -->

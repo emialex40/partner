@@ -446,7 +446,8 @@ tfoot, th, thead, time, tr, ul, var, video {
 .img_block p {
     display: inline-block;
     font-family: 'OpenSansItalic';
-    letter-spacing: 2px; }
+    letter-spacing: 2px;
+    padding: 20px 20px; }
 
 .img_block .rvws {
   display: inline-block;
@@ -727,7 +728,8 @@ tfoot, th, thead, time, tr, ul, var, video {
       color: #24136f;
       padding-top: 35px; }
     .info table td {
-      padding-top: 20px; }
+      padding-top: 20px;
+      padding-right: 30px; }
 
 .description {
   margin-left: 50px;

@@ -25,10 +25,10 @@
         </div>
         <!-- menu -->
         <ul>
-            <li><a href="#anchor1">Чому ми</a></li>
-            <li><a href="#anchor2">Нерухомість</a></li>
-            <li><a href="#anchor3">Відгуки</a></li>
-            <li><a href="#anchor4">Контакти</a></li>
+            <li><a href="#anchor1" rel="m_PageScroll2id">Чому ми</a></li>
+            <li><a href="#anchor2" rel="m_PageScroll2id">Нерухомість</a></li>
+            <li><a href="#anchor3" rel="m_PageScroll2id">Відгуки</a></li>
+            <li><a href="#anchor4" rel="m_PageScroll2id">Контакти</a></li>
         </ul>
     </div>
 <!-- mobile menu end -->
@@ -49,10 +49,10 @@
 					</div>
 					<div class="col-md-7 col-xs-7">
 						<ul class="navbar">
-							<li><a href="#anchor1">Чому ми</a></li>
-							<li><a href="#anchor2">Нерухомість</a></li>
-							<li><a href="#anchor3">Відгуки</a></li>
-							<li><a href="#anchor4">Контакти</a></li>
+							<li><a href="#anchor1" rel="m_PageScroll2id">Чому ми</a></li>
+							<li><a href="#anchor2" rel="m_PageScroll2id">Нерухомість</a></li>
+							<li><a href="#anchor3" rel="m_PageScroll2id">Відгуки</a></li>
+							<li><a href="#anchor4" rel="m_PageScroll2id">Контакти</a></li>
 						</ul>
 						<div class="menu-btn"><i class="fa fa-bars" aria-hidden="true"></i> Menu</div>
 					</div>

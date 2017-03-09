@@ -1,4 +1,4 @@
-<?php get_header() ?>
+
 
 <div id="content_block">
     <div class="container">
@@ -47,12 +47,13 @@
                 <table>
                     <tr>
                         <td><?php echo (get_post_meta($post->ID, 'кол-во комнат', true)); ?> кімнати</td>
-                        <td><?php echo (get_post_meta($post->ID, 'Пощадь', true)); ?><sup>2</sup></td>
-                        <td><?php echo (get_post_meta($post->ID, 'Этаж', true)); ?></td>
+                        <td><?php echo (get_post_meta($post->ID, 'Пощадь', true)); ?>м<sup>2</sup></td>
+                        <td><?php echo (get_post_meta($post->ID, 'Этаж', true)); ?> поверх</td>
                     </tr>
                 </table>
             </div>
-            <input class="callbeck" type="submit" value="Замовити зворотній зв'язок">
+            <?php do_action('wpcallback_button'); ?>
+            <!-- <input class="callbeck" type="submit" value="Замовити зворотній зв'язок"> -->
             <div class="info">
                 <table>
                     <caption>Інформація</caption>
@@ -92,4 +93,3 @@
     </div>
 </div>
 
-<?php get_footer() ?>

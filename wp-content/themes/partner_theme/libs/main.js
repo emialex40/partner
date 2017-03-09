@@ -1,15 +1,6 @@
 $(document).ready(function() {
   var $ = jQuery;
 
-       // anchor code
-var $page = $('html, body');
-  $('a[href*="#"]').click(function() {
-    event.preventDefault();
-      $page.animate({
-          scrollTop: $($.attr(this, 'href')).offset().top
-      }, 1000);
-    return false;
-});
 
 $(".navbar").changeActiveNav();
 
@@ -19,13 +10,13 @@ $('.call img').trigger('startRumble');
 
 });
 
-	$('#popup i, #parent_popup').on('click', function() {
-	$('#parent_popup, #popup').css('display', 'none');
-});
+// 	$('#popup i, #parent_popup').on('click', function() {
+// 	$('#parent_popup, #popup').css('display', 'none');
+// });
 
-	$('.call, .callbeck').on('click', function() {
-	$('#parent_popup, #popup').css('display', 'block');
-});
+// 	$('.call, .callbeck').on('click', function() {
+// 	$('#parent_popup, #popup').css('display', 'block');
+// });
 
 	var top_show = 290;//при каком положении кнопка появляется
   var delay = 800; // Задержка прокрутки

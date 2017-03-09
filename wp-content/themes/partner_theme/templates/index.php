@@ -1,4 +1,4 @@
-\\\\<div id="content">
+<div id="content">
     <div class="section why" id="anchor1">
         <div class="container">
             <div class="row">
@@ -50,7 +50,7 @@
                                         <div class="img_block">
                                         <?php the_post_thumbnail('full'); ?>
                                         <div class="img_hover" id="home_1">
-                                        <p><?php echo (get_post_meta($post->ID, 'кол-во комнат', true)); ?>,Площа: <?php echo (get_post_meta($post->ID, 'Пощадь', true)); ?>.кв</p>
+                                        <p><?php echo (get_post_meta($post->ID, 'кол-во комнат', true)); ?>,Площа: <?php echo (get_post_meta($post->ID, 'Пощадь', true)); ?>м<sub>2</sub></p>
                                             <strong class="price"><?php echo (get_post_meta($post->ID, 'продажа-аренда', true)); ?></strong>
                                             <a href="<?php the_permalink(); ?>"><span>докладно</span></a>
                                         </div>
@@ -76,7 +76,7 @@
                                         <div class="img_block">
                                             <?php the_post_thumbnail('full'); ?>
                                         <div class="img_hover" id="home_1">
-                                            <p><?php echo (get_post_meta($post->ID, 'кол-во комнат', true)); ?>,Площа: <?php echo (get_post_meta($post->ID, 'Пощадь', true)); ?>.кв</p>
+                                            <p><?php echo (get_post_meta($post->ID, 'кол-во комнат', true)); ?>,Площа: <?php echo (get_post_meta($post->ID, 'Пощадь', true)); ?>м<sub>2</sub></p>
                                             <strong class="price"><?php echo (get_post_meta($post->ID, 'продажа-аренда', true)); ?></strong>
                                             <a href="<?php the_permalink();?>"><span>докладно</span></a>
                                         </div>
@@ -102,7 +102,7 @@
                                         <div class="img_block">
                                             <?php the_post_thumbnail('full'); ?>
                                         <div class="img_hover" id="home_1">
-                                            <p><?php echo (get_post_meta($post->ID, 'кол-во комнат', true)); ?>,Площа: <?php echo (get_post_meta($post->ID, 'Пощадь', true)); ?>.кв</p>
+                                            <p><?php echo (get_post_meta($post->ID, 'кол-во комнат', true)); ?>,Площа: <?php echo (get_post_meta($post->ID, 'Пощадь', true)); ?>м<sub>2</sub></p>
                                             <strong class="price"><?php echo (get_post_meta($post->ID, 'продажа-аренда', true)); ?></strong>
                                             <a href="<?php the_permalink();?>"><span>докладно</span></a>
                                         </div>
