@@ -11,7 +11,7 @@ msgstr ""
 
 #: bazz-callback-widget.php:113
 msgid "EN"
-msgstr "UA"
+msgstr "RU"
 
 #: bazz-callback-widget.php:43
 msgid "The loading is extremely high, we will call back to you in the nearest future. Thanks!"

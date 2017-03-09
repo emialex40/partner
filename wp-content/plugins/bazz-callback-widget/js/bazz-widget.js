@@ -60,12 +60,12 @@ jQuery(document).ready(function(){
 	//if RU make the tamplate
 	if (bazz_options.currentLang == "RU" || bazz_options.currentLang == 'RU') {
 		if (bazz_options.bazz_in_russia == '1') {
-			jQuery("#bazz-widget-phone").mask("+7(999)999-99-99", {placeholder:"+7(___)___-__-__"});
-		} else {
-			jQuery.mask.definitions['~']='[ 1234567890+_]';
-			jQuery("#bazz-widget-phone").mask("+~~(999)999-99-99");
-		}
-		
+   jQuery("#bazz-widget-phone").mask("+7(999)999-99-99", {placeholder:"+7(___)___-__-__"});
+  } else {
+   jQuery.mask.definitions['~']='[ 1234567890+_]';
+   jQuery("#bazz-widget-phone").mask("+38(999)999-99-99", {placeholder:"+38(___)___-__-__"});
+  }
+
 	} else {
 		jQuery("#bazz-widget-phone").addClass("grey-placeholder");
 	}
