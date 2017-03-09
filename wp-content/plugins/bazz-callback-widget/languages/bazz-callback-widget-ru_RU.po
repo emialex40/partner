@@ -11,19 +11,19 @@ msgstr ""
 
 #: bazz-callback-widget.php:113
 msgid "EN"
-msgstr "RU"
+msgstr "UA"
 
 #: bazz-callback-widget.php:43
 msgid "The loading is extremely high, we will call back to you in the nearest future. Thanks!"
-msgstr "Нагрузка крайне высокая, мы перезвоним Вам в ближайшее время. Спасибо!"
+msgstr "Навантаження вкрай високе, ми передзвонимо Вам найближчим часом. Дякуємо!"
 
 #: bazz-callback-widget.php:44
 msgid "Unfortunately, we don't work for now. We will call back to you tomorrow! Thanks!"
-msgstr "К сожалению, сейчас мы не работаем! Мы перезвоним Вам завтра! Спасибо!"
+msgstr "На жаль, зараз ми не працюємо! Ми передзвонимо Вам завтра! Дякуємо!"
 
 #: bazz-callback-widget.php:132
 msgid "The client wasn't introduced"
-msgstr "Клиент не представился"
+msgstr "Клієнт не представився"
 
 #: bazz-callback-widget.php:146
 msgid "[FROM BAZZ WIDGET]"
@@ -35,15 +35,15 @@ msgstr "Телефон"
 
 #: bazz-callback-widget.php:171
 msgid "CALL NOW"
-msgstr "Заказать звонок"
+msgstr "Замовити дзвінок"
 
 #: bazz-callback-widget.php:177
 msgid "We will call back "
-msgstr "Перезвоним "
+msgstr "Передзвонимо "
 
 #: bazz-callback-widget.php:180
 msgid "in the nearest future!"
-msgstr "в ближайшее время!"
+msgstr "у найближчий час!"
 
 #: bazz-callback-widget.php:178
 msgid "you"
@@ -59,7 +59,7 @@ msgstr "секунд!"
 
 #: bazz-callback-widget.php:188
 msgid "Call me!"
-msgstr "Жду звонка!"
+msgstr "Чекаю дзвінок!"
 
 #: bazz-callback-widget.php:187
 msgid "phone here"
@@ -67,11 +67,11 @@ msgstr "Номер телефона"
 
 #: bazz-callback-widget.php:191
 msgid "Introduce youself, and we'll have been calling you by name"
-msgstr "Представьтесь, и мы будем обращаться по имени"
+msgstr "Назвіться, і ми будемо звертатися по імені"
 
 #: bazz-callback-widget.php:192
 msgid "name here"
-msgstr "Введите Ваше имя"
+msgstr "Введіть Ваше ім'я"
 
 #: bazz-callback-widget.php:224
 msgid "Hi there! This is settings of the"

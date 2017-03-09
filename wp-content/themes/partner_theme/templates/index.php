@@ -50,7 +50,7 @@
                                         <div class="img_block">
                                         <?php the_post_thumbnail('full'); ?>
                                         <div class="img_hover" id="home_1">
-                                        <p><?php echo (get_post_meta($post->ID, 'кол-во комнат', true)); ?>,Площа: <?php echo (get_post_meta($post->ID, 'Пощадь', true)); ?>м<sub>2</sub></p>
+                                        <h3><?php echo (get_post_meta($post->ID, 'цена', true)); ?></h3>
                                             <strong class="price"><?php echo (get_post_meta($post->ID, 'продажа-аренда', true)); ?></strong>
                                             <a href="<?php the_permalink(); ?>"><span>докладно</span></a>
                                         </div>
@@ -76,7 +76,7 @@
                                         <div class="img_block">
                                             <?php the_post_thumbnail('full'); ?>
                                         <div class="img_hover" id="home_1">
-                                            <p><?php echo (get_post_meta($post->ID, 'кол-во комнат', true)); ?>,Площа: <?php echo (get_post_meta($post->ID, 'Пощадь', true)); ?>м<sub>2</sub></p>
+                                            <h3><?php echo (get_post_meta($post->ID, 'цена', true)); ?></h3>
                                             <strong class="price"><?php echo (get_post_meta($post->ID, 'продажа-аренда', true)); ?></strong>
                                             <a href="<?php the_permalink();?>"><span>докладно</span></a>
                                         </div>
@@ -102,7 +102,7 @@
                                         <div class="img_block">
                                             <?php the_post_thumbnail('full'); ?>
                                         <div class="img_hover" id="home_1">
-                                            <p><?php echo (get_post_meta($post->ID, 'кол-во комнат', true)); ?>,Площа: <?php echo (get_post_meta($post->ID, 'Пощадь', true)); ?>м<sub>2</sub></p>
+                                            <h3><?php echo (get_post_meta($post->ID, 'цена', true)); ?></h3>
                                             <strong class="price"><?php echo (get_post_meta($post->ID, 'продажа-аренда', true)); ?></strong>
                                             <a href="<?php the_permalink();?>"><span>докладно</span></a>
                                         </div>

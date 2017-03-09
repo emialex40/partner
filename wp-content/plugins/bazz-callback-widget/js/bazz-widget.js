@@ -63,7 +63,7 @@ jQuery(document).ready(function(){
 			jQuery("#bazz-widget-phone").mask("+7(999)999-99-99", {placeholder:"+7(___)___-__-__"});
 		} else {
 			jQuery.mask.definitions['~']='[ 1234567890+_]';
-			jQuery("#bazz-widget-phone").mask("+~~~(999)999-99-99");
+			jQuery("#bazz-widget-phone").mask("+~~(999)999-99-99");
 		}
 		
 	} else {

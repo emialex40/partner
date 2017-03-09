@@ -14,7 +14,7 @@
 	height: 65px;
 	border-radius: 35px;
 	transition: width 0.5s;
-	background-color: #00AFF2;
+	background-color: #24136f;
 	text-align: right;
 	z-index: 9997;
 }
@@ -63,7 +63,7 @@
 			text-align: left;
 			vertical-align: middle;
 			line-height: 1.2;
-			font-size: 16px;
+			font-size: 14px;
 			font-weight: normal;
 		}
 			.bazz-widget-form label .bazz_time {
@@ -105,7 +105,7 @@
 			border-style: solid;
 			text-align: center;
 			font-family: helvetica,sans-serif !important;
-			font-size: 16px;
+			font-size: 14px;
 			border-radius: 20px;
 			height: 30px;
 			color: #FFFFFF !important;
@@ -174,7 +174,7 @@
 			transform: rotateY( 180deg );
 			color: #FFFFFF;
 			font-weight: bold;
-			font-size: 14px;
+			font-size: 12px;
 			padding-top: 18px;
 			line-height: 1.2;
 			word-wrap: break-word;
