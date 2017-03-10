@@ -8,9 +8,11 @@
 
 
 <?php wp_head(); ?>
+
 </head>
 
 <body>
+
 <!-- loader -->
 <div class="loader">
 	<div class="loader_inner"></div>
@@ -24,6 +26,7 @@
             <i class="fa fa-times" aria-hidden="true"></i>
         </div>
         <!-- menu -->
+
         <ul>
             <li><a href="#anchor1" rel="m_PageScroll2id">Чому ми</a></li>
             <li><a href="#anchor2" rel="m_PageScroll2id">Нерухомість</a></li>
@@ -35,6 +38,7 @@
 
 <!-- header -->
     <header>
+
 		<div class="top_menu">
 			<div class="container">
 				<div class="row">
@@ -49,9 +53,9 @@
 					</div>
 					<div class="col-md-7 col-xs-7">
 						<ul class="navbar">
-							<li><a href="#anchor1" rel="m_PageScroll2id">Чому ми</a></li>
-							<li><a href="#anchor2" rel="m_PageScroll2id">Нерухомість</a></li>
-							<li><a href="#anchor3" rel="m_PageScroll2id">Відгуки</a></li>
+							<li><a href="<?php bloginfo('url'); ?>#anchor1" rel="m_PageScroll2id">Чому ми</a></li>
+							<li><a href="<?php bloginfo('url'); ?>#anchor2" rel="m_PageScroll2id">Нерухомість</a></li>
+							<li><a href="<?php bloginfo('url'); ?>#anchor3" rel="m_PageScroll2id">Відгуки</a></li>
 							<li><a href="#anchor4" rel="m_PageScroll2id">Контакти</a></li>
 						</ul>
 						<div class="menu-btn"><i class="fa fa-bars" aria-hidden="true"></i> Menu</div>
@@ -62,4 +66,5 @@
 	<div class="bg_img">
 			<h1><?php bloginfo('name') ?></h1>
 	</div>
+
     </header>

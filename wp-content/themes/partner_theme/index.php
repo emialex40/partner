@@ -5,6 +5,6 @@ if(is_front_page()){
 }
 else{
 	get_template_part( 'templates/page' );
-}
+	}
 
 get_footer();   ?>
