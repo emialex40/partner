@@ -1,8 +1,20 @@
 $(document).ready(function() {
   var $ = jQuery;
 
+  var link = ('a[href*="#"]');
+   var loc = (location.href);
+  console.log(loc);
+  $(link).click(function () {
+    var loc = (location.href);
+    if(loc !== "http://partner/") {
+      window.location.href = "http://partner/";
+    }
+  });
 
-$(".navbar").changeActiveNav();
+
+
+
+// $(".navbar").changeActiveNav();
 
 $(function(){
 $('.call img').jrumble();
