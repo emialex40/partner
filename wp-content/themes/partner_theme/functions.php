@@ -43,12 +43,6 @@ function partner_scripts () {
 	wp_register_script('bootstrap', get_template_directory_uri() . '/libs/bootstrap/js/bootstrap.min.js', array(jquery), null, true);
 	wp_enqueue_script('bootstrap');
 
-	wp_register_script('jrumble', get_template_directory_uri() . '/libs/jquery.jrumble.1.3.min.js', array(jquery), null, true);
-	wp_enqueue_script('jrumble');
-
-	wp_register_script('changeActiveNav', get_template_directory_uri() . '/libs/jquery.changeActiveNav.min.js', array(jquery), null, true);
-	wp_enqueue_script('changeActiveNav');
-
 }
 add_action( 'wp_enqueue_scripts', 'partner_scripts' );
 

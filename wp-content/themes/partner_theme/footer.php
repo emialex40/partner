@@ -52,46 +52,6 @@
 <div id="top">
 	<img src="<?php bloginfo('template_url'); ?>/img/icons/on_top.png" alt="on_top">
 </div>
-<!-- on top button end -->
-
-<!-- pop up call -->
-<!-- <div class="call">
-	<img src="<?php bloginfo('template_url'); ?>/img/icons/call_phone.png" alt="call_phone">
-</div> -->
-<!-- pop up call end -->
-
-<!-- popup window -->
-<!--<div id="parent_popup"></div>
-
- <div id="popup">
-<div class="title_win">
-	<strong>Замовлення зворотнього дзвінка</strong>
-	<i class="fa fa-times" aria-hidden="true"></i>
-</div>
-	<div class="form_wrapper">
-		<form action="send.php" method="POST">
-			<input type="text" placeholder="Ваше ім'я" name= "name">
-			<input type="email" placeholder="E-mail" name= "email">
-			<input type="tel" placeholder="Телефон" name="tel" pattern="+[0-9]{3}-[0-9]{3}-[0-9]{2}[0-9]{2}" name= "phone">
-			<input class="button" type="submit" value="Відправити">
-		</form>
-	</div> -->
-	
-</div>
-<!-- popup window end -->
-
-<!-- additional components end -->
-
-<script type="text/javascript" >
-	var $page = $('html, body');
-  $('a[href*="#"]').click(function() {
-    event.preventDefault();
-      $page.animate({
-          scrollTop: $($.attr(this, 'href')).offset().top;
-      }, 1000);
-    return false;
-});
-</script>
 
 <?php wp_footer(); ?>
 </body>

@@ -1,5 +1,5 @@
 <div id="content">
-    <div class="section why" id="anchor1">
+    <div class="section why" id="anchor1" >
         <div class="container">
             <div class="row">
                 <h2>6 причин працювати з нами</h2>
@@ -140,5 +140,6 @@
             </div>
         </div>
     </div>
-    </div>
-    
+</div>
+
+
