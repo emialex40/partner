@@ -52,6 +52,15 @@
 <div id="top">
 	<img src="<?php bloginfo('template_url'); ?>/img/icons/on_top.png" alt="on_top">
 </div>
+<!-- on top button end -->
+
+<!-- pop up call -->
+<!-- pop up call end -->
+
+<!-- popup window -->
+<!-- popup window end -->
+<!-- additional components end -->
+
 
 <?php wp_footer(); ?>
 </body>

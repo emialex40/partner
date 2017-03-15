@@ -1,6 +1,21 @@
 $(document).ready(function() {
   var $ = jQuery;
 
+// $(".navbar").changeActiveNav();
+
+$(function(){
+$('.call img').jrumble();
+$('.call img').trigger('startRumble');
+
+});
+
+// 	$('#popup i, #parent_popup').on('click', function() {
+// 	$('#parent_popup, #popup').css('display', 'none');
+// });
+
+// 	$('.call, .callbeck').on('click', function() {
+// 	$('#parent_popup, #popup').css('display', 'block');
+// });
 
 	var top_show = 290;//при каком положении кнопка появляется
   var delay = 800; // Задержка прокрутки

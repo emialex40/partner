@@ -18,7 +18,7 @@ a, abbr, address, article, aside, audio, b,
 blockquote, body, canvas, caption, cite, code,
 dd, del, details, dfn, div, dl, dt, em,
 fieldset, figcaption, figure, footer, form,
-h1, h2, h3, h4, h5, h6, header, hgroup,
+h1, h2, h3, h4, h5, h6, header,
 html, i, iframe, img, ins, kbd, label,
 legend, li, mark, menu, nav, object,
 ol, p, pre, q, samp, section, small, span,
@@ -759,10 +759,24 @@ tfoot, th, thead, time, tr, ul, var, video {
   border-color: #24136f !important; }
 
 .panorama {
-  margin-top: 135px; }
+     margin-top: 135px;
+}
+
+.panorama iframe{
+    width: 526px;
+    height: 328px;
+}
 
 .video-cont {
-  margin-top: 135px; }
+    margin-top: 135px;
+}
+
+.video-cont iframe{
+    width: 526px;
+    height: 328px;
+}
+
+
 
 /*===============media css===================*/
 
@@ -897,6 +911,12 @@ p.prtnr {
 	
 }
 
+
+a.callback-btn-style{
+    margin-left: 182px !important;
+    display: block;
+}
+
 }
 
 /* Small Devices, Tablets */
@@ -995,9 +1015,18 @@ p.prtnr {
 }
 
 .address {
-    margin-left: 50px;
+    margin-left: 194px;
     margin-top: 45px;
     display: inline-block;
+}
+
+a.callback-btn-style{
+    width: 385px !important;
+    height: 55px;
+    margin-left: 182px !important;
+    margin-top: 87px;
+    font-family: 'OpenSansSemiBold';
+    font-size: 22px !important;
 }
 
 .price_text {
@@ -1136,22 +1165,40 @@ p.perf {
 .social a {
     padding-right: 45px;
 }
-.panorama {
-	display: none;
+.fotorama {
+    margin-left: 0;
 }
 
 .panorama {
-	display: none;
+    display: none;
+}
+
+.video-cont{
+    margin-left: 20px;
 }
 
 .video-cont iframe {
-	width: 330px;
-	height: 220px;
+    width: 290px;
+    height: 220px;
+    margin-left: 0;
 }
 
 .date_text {
-	margin-top: 50px;
-	margin-left: 35px;
+    margin-top: 50px;
+    margin-left: 35px;
+}
+
+.address {
+    margin-left: 20px;
+}
+
+a.callback-btn-style{
+    width: 280px !important;
+    height: 55px;
+    margin-left: 20px !important;
+    margin-top: 87px;
+    font-family: 'OpenSansSemiBold';
+    font-size: 16px !important;
 }
 
 .price_text {
@@ -1304,19 +1351,41 @@ p.perf {
     padding-right: 45px;
 }
 
+.fotorama {
+    margin-left: 0;
+}
+
 .panorama {
 	display: none;
+}
+
+.video-cont{
+    margin-left: 0;
 }
 
 .video-cont iframe {
 	width: 290px;
 	height: 220px;
+    margin-left: 0;
 }
 
 .date_text {
 	margin-top: 50px;
 	margin-left: 35px;
 }
+
+.address {
+    margin-left: 20px;
+}
+
+    a.callback-btn-style{
+        width: 280px !important;
+        height: 55px;
+        margin-left: 3px !important;
+        margin-top: 87px;
+        font-family: 'OpenSansSemiBold';
+        font-size: 16px !important;
+    }
 
 .price_text {
     margin-left: 75px;

@@ -46,7 +46,7 @@
             <div class="table_rev">
                 <table>
                     <tr>
-                        <td><?php echo (get_post_meta($post->ID, 'кол-во комнат', true)); ?> кімнати</td>
+                        <td><?php echo (get_post_meta($post->ID, 'кол-во комнат', true)); ?> кімнати(а)</td>
                         <td><?php echo (get_post_meta($post->ID, 'Пощадь', true)); ?>м<sup>2</sup></td>
                         <td><?php echo (get_post_meta($post->ID, 'Этаж', true)); ?> поверх</td>
                     </tr>

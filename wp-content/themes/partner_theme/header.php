@@ -4,7 +4,14 @@
     <meta charset="<?php bloginfo('charset') ?>">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <title><?php bloginfo('name') ?></title>
+	<meta name="description" content="Партнер - сайт агенції нерухомості місто Рівне">
+	<meta name="description" content="Партнер - сайт агенства недвижемости город Ровно">
+	<meta name="keywords" content="партнер агентство недвижимости агенція нерухомості продажа квартир объектов
+	аренда оренда real estate partner эксклюзив опыт сеть партнеров иновационные технологии индивидуальный маркетинг
+	совершенствование ексклюзив досвід мережа партнерів іноваційни технології індивідуальний маркетінг вдосконалення майстерності
+	житлова комерційна зарубіжна жилая комерческая зарубежная заказать купить лучшее украина краще лучшее ровно рівне єлітна
+	элитная">
+    <title><?php bloginfo('name') ?> <?php wp_title(); ?></title>
 
 
 <?php wp_head(); ?>
@@ -28,10 +35,10 @@
         <!-- menu -->
 
         <ul>
-            <li><a href="#anchor1" rel="m_PageScroll2id">Чому ми</a></li>
-            <li><a href="#anchor2" rel="m_PageScroll2id">Нерухомість</a></li>
-            <li><a href="#anchor3" rel="m_PageScroll2id">Відгуки</a></li>
-            <li><a href="#anchor4" rel="m_PageScroll2id">Контакти</a></li>
+            <li><a href="<?php bloginfo('url'); ?>#anchor1" rel="m_PageScroll2id">Чому ми</a></li>
+            <li><a href="<?php bloginfo('url'); ?>#anchor2" rel="m_PageScroll2id">Нерухомість</a></li>
+            <li><a href="<?php bloginfo('url'); ?>#anchor3" rel="m_PageScroll2id">Відгуки</a></li>
+            <li><a href="<?php bloginfo('url'); ?>#anchor4" rel="m_PageScroll2id">Контакти</a></li>
         </ul>
     </div>
 <!-- mobile menu end -->
