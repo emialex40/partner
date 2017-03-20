@@ -776,6 +776,22 @@ tfoot, th, thead, time, tr, ul, var, video {
     height: 328px;
 }
 
+.error{
+    display: inline-block;
+    margin-top: 115px;
+    margin-left: 324px;
+    font-size: 36px;
+    color: #24136f;
+}
+
+.img_error{
+    display: inline-block;
+    width: 496px;
+    height: 400px;
+    margin-top: 40px;
+    margin-left: 331px;
+}
+
 
 
 /*===============media css===================*/
